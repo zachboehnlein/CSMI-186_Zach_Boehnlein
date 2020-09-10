@@ -1,0 +1,76 @@
+cd
+ls
+mv
+cd ..
+../
+
+
+mv Guns-n-Roses.jpg to ../../funk/GunsNRoses/
+
+mv DollyParton.jpg to ../../soul/DollyParton/
+
+mv EarthWindAndFire.jpg to ../../rock/EarthWindAndFire
+
+mv Temptations.jpg to ../../reggae/Temptations
+
+mv Beat65ToshCover.jpg to ../../rock/PeterTosh
+
+mv SmokeyRobinson.jpg to ../../hip-hop-rap/SmokeyRobinson
+
+mv AlanisMorissette.png to ../../funk/AlanisMorissette
+
+mv juice-wrld_12.jpg to ../../soul/JuiceWrld
+
+mv PatsyCline.jpg to ../../hip-hop-rap/PatsyCline
+
+mv Funkadelic.jpg to ../../reggae/Funkadelic
+
+mv GarthBrooks.jpg to ../GarthBrooks
+
+mv OhioPlayers.jpg to ../../country/OhioPlayers
+
+mv BobMarley.jpg to ../BobMarley
+
+mv Fourtops.jpg to ../../funk/FourTops
+
+mv JimmyCliff.jpg to ../../soul/JimmyCliff
+
+mv aerosmith.jpg to ../../hip-hop-rap/Aerosmith
+
+mv nicki-minaj_13.jpg to ../../country/NickiMinaj
+
+mv BobMarley to ../reggae
+
+mv NickiMinaj to ../hip-hop-rap
+
+mv OhioPlayers to ../funk
+
+mv AlanisMorissette to ../rock
+
+mv FourTops to ../soul
+
+mv GunsNRoses to ../rock
+
+mv Aerosmith to ../rock
+
+mv PatsyCline to ../country
+
+mv SmokeyRobinson to ../soul
+
+mv Funkadelic to ../funk
+
+mv GarthBrooks to ../country
+
+mv Temptations to ../soul
+
+mv CardiB to ../hip-hop-rap
+
+mv EarthWindAndFire to ../funk
+
+mv PeterTosh to ../Reggae
+
+mv DollyParton to ../country
+
+mv JimmyCliff to ../reggae
+
+mv JuiceWrld to ../hip-hop-rap
