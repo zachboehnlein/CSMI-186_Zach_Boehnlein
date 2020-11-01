@@ -1,0 +1,477 @@
+.                                                                              
+=====================================================                          
+Testing the SkateRamp Ingetration Project Homework # 05                        
+=====================================================                          
+.                                                                              
+.                                                                              
+... Running built-in tests in the SkateRamp class                              
+...   should either throw exceptions which will not appear in the output file  
+...     but which should be caught to keep the test program running            
+...   or preferably output error messages which SHOULD appear there then quit  
+.                                                                              
+.                                                                              
+============================================================================   
+Testing bogus function name 'bogus'                                            
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+.                                                                              
+.                                                                              
+============================================================================   
+Testing bogus function name 'poly' with no arguments                           
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with only one arg                           
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with only two args                          
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with four args with negative final arg      
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+poly
+ coeffs = 1.0x^0  2.0x^1  
+ lower = 2.0
+ upper = -1.0
+ Epi = 0.01
+Current Area: -7.5
+Current Area * 3: -22.5
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with four args with zero final arg          
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+poly
+ coeffs = 1.0x^0  0.0x^1  
+ lower = 2.0
+ upper = 0.0
+ Epi = 0.01
+Current Area: -2.0
+Current Area * 3: -6.0
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with three args and default percentage      
+...should produce a result close to '0.0000'                                   
+============================================================================   
+poly
+ coeffs = 0.0x^0  
+ lower = 1.0
+ upper = 2.0
+ Epi = 0.01
+Current Area: 0.0
+Current Area * 3: 0.0
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with three args with final arg 1e-6%       
+...should produce a result close to '2.0000'                                   
+============================================================================   
+poly
+ coeffs = 2.0x^0  
+ lower = 1.0
+ upper = 2.0
+ Epi = 1.0E-8
+Current Area: 2.0
+Current Area * 3: 6.0
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with test case parabola args and 1e-6%     
+...should produce a result close to '18.0000'                                  
+============================================================================   
+poly
+ coeffs = -2.0x^0  8.0x^1  0.0x^2  
+ lower = 1.0
+ upper = 4.0
+ Epi = 1.0E-8
+Current Area: 18.000033049110822
+Current Area * 3: 54.00009914733246
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with test case parabola args and default    
+...should produce a result close to '18.1800'                                  
+============================================================================   
+poly
+ coeffs = -2.0x^0  8.0x^1  0.0x^2  
+ lower = 1.0
+ upper = 4.0
+ Epi = 0.01
+Current Area: 18.18
+Current Area * 3: 54.54
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with web page args and default              
+...should produce a result close to '1268.75'                                  
+============================================================================   
+poly
+ coeffs = 3.2x^0  -2.1x^1  1.0x^2  
+ lower = -10.0
+ upper = 5.0
+ Epi = 0.01
+Current Area: 1268.75
+Current Area * 3: 3806.25
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' for x\5 - 2X\3 - X\2 - 7X - 3            
+   from 0 to 2 with 1e-6%                                                    
+...should produce a result close to '-20.00'                                   
+============================================================================   
+poly
+ coeffs = 1.0x^0  0.0x^1  -2.0x^2  -1.0x^3  -7.0x^4  -3.0x^5  
+ lower = 0.0
+ upper = 2.0
+ Epi = 1.0E-8
+Current Area: -20.000043962761833
+Current Area * 3: -60.000131888285495
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with web page args and default               
+...should produce a result close to '1.9137'                                   
+============================================================================   
+sin
+ coeffs = 
+ lower = -0.27
+ upper = 3.55
+ Epi = 0.01
+Current Area: 1.913682897150073
+Current Area * 3: 5.741048691450219
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args -3.45 6.789 and 1.5e-4%           
+...should produce a result close to '-1.8278'                                  
+============================================================================   
+sin
+ coeffs = 
+ lower = -3.45
+ upper = 6.789
+ Epi = 1.4999999999999998E-6
+Current Area: -1.8278419511559694
+Current Area * 3: -5.483525853467908
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args 0.0 1.0 -3.45 6.789 and 1.5e-4%   
+...should produce a result close to '-1.8278'                                  
+============================================================================   
+sin
+ coeffs = 1.0x^0  0.0x^1  
+ lower = -3.45
+ upper = 6.789
+ Epi = 1.4999999999999998E-6
+Current Area: -1.8278419511559694
+Current Area * 3: -5.483525853467908
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args -17.0 3.0 -11.0 11.0 and 1e-7%    
+...should produce a result close to '0.6409'                                   
+============================================================================   
+sin
+ coeffs = 3.0x^0  -17.0x^1  
+ lower = -11.0
+ upper = 11.0
+ Epi = 9.999999999999999E-10
+Current Area: 0.6408774557654928
+Current Area * 3: 1.9226323672964785
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args -17.0 1.0 -23.0 23.0 and 1e-4%    
+...should produce a result close to '-1.6276'                                  
+============================================================================   
+sin
+ coeffs = 1.0x^0  -17.0x^1  
+ lower = -23.0
+ upper = 23.0
+ Epi = 1.0E-6
+Current Area: -1.6275626382561856
+Current Area * 3: -4.882687914768557
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args 23.0 -3.0 7.0 1.0 7.0 and 1e-6%  
+...should output a result close to 67.8939                                     
+============================================================================   
+sqrt
+ coeffs = 7.0x^0  -3.0x^1  23.0x^2  
+ lower = 1.0
+ upper = 7.0
+ Epi = 1.0E-8
+Current Area: 67.89387530077725
+Current Area * 3: 203.68162590233175
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args 100.0 0.0 1.0 and 1e-8%          
+...should output a result close to 10.0                                        
+============================================================================   
+sqrt
+ coeffs = 100.0x^0  
+ lower = 0.0
+ upper = 1.0
+ Epi = 1.0E-10
+Current Area: 10.0
+Current Area * 3: 30.0
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args -100.0 0.0 1.0 and 1e-8%         
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+...  Also acceptable is the java output of 'NaN'                               
+============================================================================   
+sqrt
+ coeffs = -100.0x^0  
+ lower = 0.0
+ upper = 1.0
+ Epi = 1.0E-10
+Current Area: NaN
+Current Area * 3: NaN
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args 2.0 0.0 1.0 and 1e-3%            
+...should output a result close to 1.4142                                      
+============================================================================   
+sqrt
+ coeffs = 2.0x^0  
+ lower = 0.0
+ upper = 1.0
+ Epi = 1.0E-5
+Current Area: 1.4142135623730951
+Current Area * 3: 4.242640687119286
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with web page args and default               
+...should produce a result close to '-0.1326'                                  
+============================================================================   
+sin
+ coeffs = 
+ lower = -0.27
+ upper = 3.55
+ Epi = 0.01
+Current Area: -0.13264570679545507
+Current Area * 3: -0.3979371203863652
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args -3.45 6.789 and 1.5e-4%           
+...should produce a result close to '0.1810'                                   
+============================================================================   
+sin
+ coeffs = 
+ lower = -3.45
+ upper = 6.789
+ Epi = 1.4999999999999998E-6
+Current Area: 0.1810028985368519
+Current Area * 3: 0.5430086956105556
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args 0.0 1.0 -3.45 6.789 and 1.5e-4%   
+...should produce a result close to '0.1810'                                   
+============================================================================   
+sin
+ coeffs = 1.0x^0  0.0x^1  
+ lower = -3.45
+ upper = 6.789
+ Epi = 1.4999999999999998E-6
+Current Area: 0.1810028985368519
+Current Area * 3: 0.5430086956105556
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args -17.0 3.0 -11.0 11.0 and 1e-7%    
+...should produce a result close to '-0.1834'                                  
+============================================================================   
+sin
+ coeffs = 3.0x^0  -17.0x^1  
+ lower = -11.0
+ upper = 11.0
+ Epi = 9.999999999999999E-10
+Current Area: -0.18342671424659204
+Current Area * 3: -0.5502801427397761
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args -17.0 1.0 -23.0 23.0 and 1e-4%    
+...should produce a result close to '0.4658'                                   
+============================================================================   
+sin
+ coeffs = 1.0x^0  -17.0x^1  
+ lower = -23.0
+ upper = 23.0
+ Epi = 1.0E-6
+Current Area: 0.46582768544034786
+Current Area * 3: 1.3974830563210436
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'tan' with args -0.5 1.25 and default              
+...should produce a result close to '1.0029'                                   
+============================================================================   
+tan
+ coeffs = 
+ lower = -0.5
+ upper = 1.25
+ Epi = 0.01
+Current Area: 1.0028693366493577
+Current Area * 3: 3.008608009948073
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'tan' with args -0.5 1.25 and 1.5e-4%             
+...should produce a result close to '1.0235'                                   
+============================================================================   
+tan
+ coeffs = 
+ lower = -0.5
+ upper = 1.25
+ Epi = 1.4999999999999998E-6
+Current Area: 1.0234895853391974
+Current Area * 3: 3.0704687560175925
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'tan' with args 0.0 1.0 -0.5 1.25 and 1.5e-4%     
+...should produce a result close to '1.0235'                                   
+============================================================================   
+tan
+ coeffs = 1.0x^0  0.0x^1  
+ lower = -0.5
+ upper = 1.25
+ Epi = 1.4999999999999998E-6
+Current Area: 1.0234895853391974
+Current Area * 3: 3.0704687560175925
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log' with args 0.0 1.0 1.1 2.3 and 1e-5%         
+...should produce a result close to '0.6109'                                   
+============================================================================   
+tan
+ coeffs = 1.0x^0  0.0x^1  
+ lower = 1.1
+ upper = 2.3
+ Epi = 1.0000000000000001E-7
+Current Area: 0.6108526885629594
+Current Area * 3: 1.832558065688878
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log'                                              
+...should produce a result close to '0.6140'                                   
+============================================================================   
+tan
+ coeffs = 
+ lower = 1.1
+ upper = 2.3
+ Epi = 0.01
+Current Area: 0.6139719441036153
+Current Area * 3: 1.841915832310846
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with web page args and default prct          
+...should produce a result close to '25.5763'                                  
+============================================================================   
+tan
+ coeffs = 
+ lower = 2.0
+ upper = 3.5
+ Epi = 0.01
+Current Area: 25.57627124733482
+Current Area * 3: 76.72881374200446
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log10' with args 0.0 1.0 1.1 2.3 and 1e-5%       
+...should produce a result close to '0.2653'                                   
+============================================================================   
+log10
+ coeffs = 1.0x^0  0.0x^1  
+ lower = 1.1
+ upper = 2.3
+ Epi = 1.0000000000000001E-7
+Current Area: 0.2652899518986587
+Current Area * 3: 0.7958698556959762
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log10'                                            
+...should produce a result close to '0.2653'                                   
+============================================================================   
+log10
+ coeffs = 
+ lower = 1.1
+ upper = 2.3
+ Epi = 0.01
+Current Area: 0.2666446273676119
+Current Area * 3: 0.7999338821028357
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with web page args and 1.6e-7%              
+...should produce a result close to '25.7264'                                  
+============================================================================   
+tan
+ coeffs = 
+ lower = 2.0
+ upper = 3.5
+ Epi = 1.6E-9
+Current Area: 25.72638581457592
+Current Area * 3: 77.17915744372776
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with 0.0 1.0 2.0 3.5 and 1e-7%              
+...should produce a result close to '25.7264'                                  
+============================================================================   
+tan
+ coeffs = 1.0x^0  0.0x^1  
+ lower = 2.0
+ upper = 3.5
+ Epi = 9.999999999999999E-10
+Current Area: 25.726388513932108
+Current Area * 3: 77.17916554179632
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with web page args and default prct          
+...should produce a result close to '25.5763'                                  
+============================================================================   
+tan
+ coeffs = 
+ lower = 2.0
+ upper = 3.5
+ Epi = 0.01
+Current Area: 25.57627124733482
+Current Area * 3: 76.72881374200446
+.                                                                              
+.                                                                              
+============================================================================   
+End of Testing                                                                 
+============================================================================   
