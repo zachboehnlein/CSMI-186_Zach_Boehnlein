@@ -62,7 +62,7 @@ validations method      : exists                            - 1/1 point
 main method             : runs properly, no errors          - 1/1 point
 runMyTests method       : exists, tests three methods       - 1/1 points
 
-Integrators class [EC]  : if it exists/compiles [optional]  - 1/1 point EC
+Integrators class [EC]  : if it exists/compiles [optional]  - 0/1 point EC
 
 Integrate polynomials   : method exists in some file        - 1/1 point
 Integrate sine          : method exists in some file        - 1/1 point
@@ -97,7 +97,7 @@ but you got pretty close results on most of the outputs.  Everything ran to
 completion, too.
 
 
-Your score: 36 out of 31.0 = 116.13% which is an A-plus.
+Your score: 35 out of 31.0 = 112.90% which is an A-plus.
 
 For the semester you have:
    homework00:    5.00
@@ -105,9 +105,9 @@ For the semester you have:
    homework02:    5.00
    homework03:   10.00
    homework04:    9.73
-   homework05:   17.42
+   homework05:   16.94
    -------------------
-        total:   52.15 out of 50 which is 104.30% which is an A-plus
+        total:   51.67 out of 50 which is 103.33% which is an A-plus
 
 
 AWESOME SAUCE!  Keep up the great work, Zach!
