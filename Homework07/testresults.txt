@@ -1,0 +1,46 @@
+theoretical Probability is: 91.40304715618693%
+Approximate Probability is: 91.4686%
+hold up this may take a sec to run
+theoretical Probability is: 100.0%
+Approximate Probability is: 100.0%
+theoretical Probability is: 75.33475278503207%
+Approximate Probability is: 75.43995489569629%
+theoretical Probability is: 0.2739726027397249%
+Approximate Probability is: 0.0%
+hold up this may take a sec to run
+theoretical Probability is: 99.99996927510722%
+Approximate Probability is: 99.99990506479328%
+theoretical Probability is: 100.0%
+Approximate Probability is: 100.0%
+hold up this may take a sec to run
+theoretical Probability is: 16.70247888380647%
+Approximate Probability is: 16.736374056307284%
+hold up this may take a sec to run
+theoretical Probability is: 100.0%
+Approximate Probability is: 100.0%
+theoretical Probability is: 100.0%
+Approximate Probability is: 100.0%
+theoretical Probability is: 100.0%
+Approximate Probability is: 100.0%
+theoretical Probability is: 2.713557369979369%
+Approximate Probability is: 2.592233009708738%
+theoretical Probability is: 9.462383388916695%
+Approximate Probability is: 9.417371252882397%
+theoretical Probability is: 99.99759973260097%
+Approximate Probability is: 99.99689960935078%
+theoretical Probability is: 100.0%
+Approximate Probability is: 100.0%
+hold up this may take a sec to run
+theoretical Probability is: 56.8699703969464%
+Approximate Probability is: 56.96246169790916%
+theoretical Probability is: 97.03735795779885%
+Approximate Probability is: 97.06602899650659%
+theoretical Probability is: 99.97198781738113%
+Approximate Probability is: 99.976%
+theoretical Probability is: 99.99759973260097%
+Approximate Probability is: 100.0%
+theoretical Probability is: 0.0%
+Approximate Probability is: 0.0%
+one or two arguments only plz
+plz fix the error in your argument, remember integers only!
+plz fix the error in your argument, remember integers only!
